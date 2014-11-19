@@ -112,6 +112,7 @@ typedef signed int entier;
 typedef signed long int entier_long;
 typedef unsigned int entier_no_signe;
 typedef double reel;
+typedef long double reel_long;
 typedef char caractere;
 typedef float floatant;
 typedef void vide;
