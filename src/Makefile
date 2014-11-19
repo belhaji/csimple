@@ -16,7 +16,7 @@ INCSPATH=/usr/include
 $(LIBNAME)	:	$(OBJFILES)
 	ar -cvq $(LIBNAME) $(OBJFILES)
 $(OBJFILES)	: 	$(CFILES)
-	$(CC) -c (CFILES) $(CFILES)
+	$(CC) -c $(CFILES) $(CFILES) -I$(INCPATH)
 clean		:
 	$(CLEANCMD) $(OBJFILES)
 install		:

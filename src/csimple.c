@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2014 adil belhaji <belhaji.dev@gmail.com>
  * 
- * SimpleEditor is free software: you can redistribute it and/or modify it
+ * Csimple is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
  * Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
@@ -15,7 +15,7 @@
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "algoc.h"
+#include <csimple.h>
 
 
 //============= les operation sur les ficheirs  =============//
@@ -36,10 +36,6 @@ FICHIER* fichier_tmp(vide){
 	renvoie tmpfile ();
 }
 
-caractere *nom_tmp(caractere *chaine){
-
-	renvoie tmpnam ( chaine );
-}
 
 
 //============= Accee aux ficheirs  =============//
@@ -173,9 +169,6 @@ entier mettre_c(entier c,FICHIER* fichier){
 	renvoie putc(c,fichier);
 }
 
-caractere* obtenir_chaine(caractere* chaine){
-	renvoie gets(chaine);
-} 
 
 entier mettre_chaine(const caractere* chaine){
 	renvoie puts(chaine);

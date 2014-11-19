@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2014 adil belhaji <belhaji.dev@gmail.com>
  * 
- * SimpleEditor is free software: you can redistribute it and/or modify it
+ * Csimple is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
  * Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
@@ -19,8 +19,8 @@
 
 
 
-#ifndef ALGO_H
-#define ALGO_H
+#ifndef CSIMPLE_H
+#define CSIMPLE_H
 
 /*
  * ajout du biblo standard
@@ -130,8 +130,6 @@ entier renommer(const caractere * ancien_nom,const caractere * nouveau_nom);
 
 FICHIER* fichier_tmp(vide);
 
-caractere* nom_tmp(caractere *chaine);
-
 //============= Accee aux ficheirs  =============//
 
 entier fermer_fichier(FICHIER* fichier);
@@ -185,8 +183,6 @@ entier obtenir_c(FICHIER* fichier);
 
 entier mettre_c(entier c,FICHIER* fichier);
 
-caractere* obtenir_chaine(caractere* chaine);
-
 entier mettre_chaine(const caractere* chaine);
 
 entier obtenir_char(vide);
@@ -207,4 +203,4 @@ entier fichier_mettre_pos(FICHIER* fichier,const fichier_pos_t* pos);
 
 entier_long fichier_dire_pos(FICHIER* fichier);
 
-#endif /* ALGO_H */
+#endif /* CSIMPLE_H */
