@@ -6,7 +6,7 @@ debut
 	ecrire_format("entrer n : ");
 	lire_format("%d",&n);
 	i=n;
-	while(i>1)
+	tantque(i>1)
 		f*=i--;
 	
 	ecrire_format("factoriel(%d) = %ld \n",n,f);
