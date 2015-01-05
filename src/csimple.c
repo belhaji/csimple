@@ -86,25 +86,25 @@ entier var_chaine_lire_format(const caractere* chaine,const caractere* format,va
 }
 
 entier fichier_ecrire_format(FICHIER* fichier,caractere* format, ...){
-		int retour ;
+		entier retour ;
 		va_list arg;
 		va_start (arg,format);
 		var_fichier_ecrire_format(fichier,format,arg);
 		va_end (arg);
-		return retour;
+		renvoie retour;
 }
 
 entier fichier_lire_format(FICHIER* fichier,caractere* format, ...){
-		int retour ;
+		entier retour ;
 		va_list arg;
 		va_start (arg,format);
 		retour = var_fichier_lire_format(fichier,format,arg);
 		va_end (arg);
-		return retour;
+		renvoie retour;
 }
 
 entier chaine_ecrire_format(caractere* chaine,const caractere* format, ...){
-		int retour ;
+		entier retour ;
 		va_list arg;
 		va_start (arg,format);
 		retour = var_chaine_ecrire_format(chaine,format,arg);
@@ -113,32 +113,32 @@ entier chaine_ecrire_format(caractere* chaine,const caractere* format, ...){
 }
 
 entier chaine_lire_format(caractere* chaine,const caractere* format, ...){
-		int retour ;
+		entier retour ;
 		va_list arg;
 		va_start (arg,format);
 		retour = var_chaine_lire_format(chaine,format,arg);
 		va_end (arg);
-		return retour;
+		renvoie retour;
 }
 
 entier ecrire_format (const caractere *format,...)
 {	
-		int retour ;
+		entier retour ;
 		va_list arg;
 		va_start (arg,format);
 		retour = var_ecrire_format(format,arg);
 		va_end (arg);
-		return retour;
+		renvoie retour;
 }
 
 entier lire_format(const caractere *format, ...)
 {
-	int retour;
+	entier retour;
 	va_list arg;
 	va_start (arg, format);
 	retour = var_lire_format(format,arg);
 	va_end (arg);
-	return retour;
+	renvoie retour;
 }
 
 

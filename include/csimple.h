@@ -23,7 +23,7 @@
 #define CSIMPLE_H
 
 /*
- * ajout du biblo standard
+ * ajout du biblio standard
  *
  */
 

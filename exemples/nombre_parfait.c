@@ -1,9 +1,8 @@
 #include <csimple.h>
-#include <math.h>
 debut
 	entier diviseur,n,somme=1;
 	faire{
-		ecrire_format("combien de nombre premier vous voulez: ");
+		ecrire_format("donne un nombre : ");
 		lire_format("%d",&n);
 	}tantque(n < 0);
 	diviseur=2;

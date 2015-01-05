@@ -8,7 +8,6 @@ debut
 	i=n;
 	tantque(i>1)
 		f*=i--;
-	
 	ecrire_format("factoriel(%d) = %ld \n",n,f);
 
 fin
