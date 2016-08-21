@@ -1,7 +1,5 @@
 #CSimple
- Csimple est une extension du language C cree a fin de simplifier ce language pour les debutant
- qui ont des probleme avec le C.
- les fonction sont simple a comprendre et a rappeler .
+ Csimple est une extension du langage C créé a fin de simplifier ce langage pour les debutants qui ont des problème avec le C. la syntaxe est simple à comprendre et à rappeler .
 
 ## Pour l'installer
 
