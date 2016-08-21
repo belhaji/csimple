@@ -1,4 +1,50 @@
-*
+#CSimple
+ Csimple est une extension du language C cree a fin de simplifier ce language pour les debutant
+ qui ont des probleme avec le C.
+ les fonction sont simple a comprendre et a rappeler .
+
+## Pour l'installer
+
+ 1. vas au dossier src 
+
+ 		cd src
+ 	
+ 2. ensuite compiler avec make
+ 	
+ 		make
+ 	
+ 3. installer avec make install (tu dois etre root utiliser sudo)
+ 	
+ 		sudo make install
+
+
+
+## Pour utiliser la biblio 
+
+ 1. cree votre fichier test.c et inclue csimple.h 
+ 		
+ 	ex:
+
+ 				#include <csimple.h>
+ 				debut
+ 					ecrire_format("salut le monde\n");
+ 				fin
+
+ 	
+ 2. compiler (je te recommande d'utiliser gcc)
+
+ 		gcc -o test test.c -lcsimple
+
+ 3. executer votre programme
+
+ 		./test
+
+
+## Preview
+
+![csimple_ide_window](https://s9.postimg.org/8uzx8s6pr/csimple_ide_window.jpg)
+
+# Licence
  * Copyright (C) 2014 adil belhaji <belhaji.dev@gmail.com>
  * 
  * Csimple is free software: you can redistribute it and/or modify it
@@ -13,44 +59,4 @@
  * 
  * You should have received a copy of the GNU General Public License along
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-
- Csimple est une bibliotheque C cree a fin de simplifier le language C pour les debutant
- qui ont des probleme avec l anglais.
- les fonction sont simple a comprendre et a rappeler .
-
-============ pour l installer ============
-
- 	1- vas au dossier src 
-
- 		cd src
- 	
- 	2- ensuite compiler avec make
- 	
- 		make
- 	
- 	3- installer avec make install (tu dois etre root utiliser sudo)
- 	
- 		sudo make install
-
-
-
-============ pour utiliser la biblio  ============
-
- 	1-cree votre fichier test.c et inclue csimple.h 
- 		
- 		ex:
-
- 				#include <csimple.h>
- 				debut
- 					ecrire_format("salut le monde\n");
- 				fin
-
- 	
- 	2-compiler (je te recommande d'utiliser gcc)
-
- 		gcc -o test test.c -lcsimple
-
- 	3- executer votre programme
-
- 		./test
+ *
